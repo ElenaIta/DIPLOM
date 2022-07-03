@@ -29,23 +29,26 @@
 
 
 **3. Запустить контейнеры docker:**
-Для работы с базой данных mysql выполнить команду:
-docker-compose -f docker-compose-mysql.yml up -d После прогона тестов остановить контейнеры:
-docker-compose -f docker-compose-mysql.yml down
+Для работы с базой данных mysql выполнить команду: docker-compose -f docker-compose-mysql.yml up -d 
+
+После прогона тестов остановить контейнеры: docker-compose -f docker-compose-mysql.yml down
 
 
 **4. Для работы с базой данных postgres выполнить команду:**
 
-docker-compose -f docker-compose-postgres.yml up -d После прогона тестов остановить контейнеры:
-docker-compose -f docker-compose-postgres.yml down
+docker-compose -f docker-compose-postgres.yml up -d 
+
+После прогона тестов остановить контейнеры: docker-compose -f docker-compose-postgres.yml down
 
 
 **5. Запустить приложение:**
 
 Для запуска приложения с базой данных mysql выполнить команду:
+
 java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar aqa-shop.jar
 
 Для запуска приложения с базой данных postgres выполнить команду:
+
 java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar aqa-shop.jar
 
 
