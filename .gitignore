@@ -1,0 +1,45 @@
+Thumbs.db *
+.DS_Store
+HELP.md
+.gradle
+построить/
+
+### STS ###
+.apt_generated
+.путь к классу
+.factorypath
+.проект
+.настройки
+.springBeans
+.sts4-кэш
+
+### IntelliJ IDEA ###
+.идея
+*.iws
+*.iml
+*.ipr
+вне/
+
+### NetBeans ###
+/ nbproject/частный/
+/nbbuild/
+/ dist/
+/ nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Файлы пакетов ###
+* .jar
+*.война
+*.nar
+* .ear
+* .zip
+*.tar.gz
+* .rar
+
+### Исключения ###
+gradle!/wrapper/gradle-wrapper.jar
+**!/src/main/**
+**!/src/test/**
